@@ -1,0 +1,22 @@
+<header class="site-header" role="banner" id='header-bar'>
+
+    <div class="wrapper">
+        {% assign default_paths = site.pages | map: "path" %}
+        <a class="site-title" href="{{ "/Blog.html" | relative_url }}">{{ site.title | escape }}</a>
+        
+        <nav class="site-nav">
+            <a class="page-link" href="{{ '/Resume.html' | relative_url }}">&#x1F4CB; CV</a>
+        </nav>
+
+        <nav class="site-nav">
+            <a class="page-link" href="{{ '/' | relative_url }}"> &#x1F3E0; Home</a>
+        </nav>
+
+        <nav class="site-nav">
+            <a class="page-link" href="{{ '/Blog.html' | relative_url }}">&#x270E; Blog</a>
+        </nav>
+
+        
+    </div>
+
+</header>
