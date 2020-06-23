@@ -2,10 +2,10 @@
 
     <div class="wrapper">
         {% assign default_paths = site.pages | map: "path" %}
-        <a class="site-title" href="{{ '/Blog.html' | relative_url }}">{{ site.title | escape }}</a>
+        <a class="site-title" href="{{ '/blog.html' | relative_url }}">{{ site.title | escape }}</a>
         
         <nav class="site-nav">
-            <a class="page-link" href="{{ '/Resume.html' | relative_url }}">&#x1F4CB; CV</a>
+            <a class="page-link" target='_blank' href="{{ '/assets/Kartik_resume_CV.pdf' | relative_url }}">&#x1F4CB; CV</a>
         </nav>
 
         <nav class="site-nav">
@@ -13,7 +13,7 @@
         </nav>
 
         <nav class="site-nav">
-            <a class="page-link" href="{{ '/Blog.html' | relative_url }}">&#x270E; Blog</a>
+            <a class="page-link" href="{{ '/blog.html' | relative_url }}">&#x270E; Blog</a>
         </nav>
 
         
