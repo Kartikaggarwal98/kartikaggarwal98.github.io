@@ -2,7 +2,7 @@ title: K'Blog
 name: "Kartik's Tech Blog"
 author: Kartik Aggarwal
 twitter_username: aggarwal_kartik
-baseurl: "/k-blog"
+baseurl: "/"
 description: Document my learning notes.
 profile_url: "www.kartikaggarwal.me"
 
