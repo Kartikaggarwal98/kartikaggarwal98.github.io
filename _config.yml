@@ -4,7 +4,7 @@ author: Kartik Aggarwal
 twitter_username: aggarwal_kartik
 baseurl: "/k-blog"
 description: Document my learning notes.
-profile_url: "http://kartikaggarwal98.github.io"
+profile_url: "www.kartikaggarwal.me"
 
 # Build settings
 markdown: kramdown
