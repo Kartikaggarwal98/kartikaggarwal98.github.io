@@ -25,7 +25,7 @@ Imagine the following scenario:
 
 This problem is similar to the **Card Matching problem**:
 
-$$ Q.1 $$ In a well shuffled deck of cards labelled $$ 1 $$ to $$ n $$, what is the probability that atleast one card matches? A match is considered when the $$ i^{th} $$ card in the deck is numbered $$ i $$.
+$ Q.1 $ In a well shuffled deck of cards labelled $ 1 $ to $$ n $$, what is the probability that atleast one card matches? A match is considered when the $$ i^{th} $$ card in the deck is numbered $$ i $$.
 
 $$ Q.2 $$ Will the probability increase or decrease if the number of cards are increased?
 
