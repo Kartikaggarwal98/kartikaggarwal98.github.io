@@ -25,9 +25,9 @@ Imagine the following scenario:
 
 This problem is similar to the **Card Matching problem**:
 
-$ Q.1 $ In a well shuffled deck of cards labelled $ 1 $ to $$ n $$, what is the probability that atleast one card matches? A match is considered when the $$ i^{th} $$ card in the deck is numbered $$ i $$.
+$ Q.1 $ In a well shuffled deck of cards labelled $ 1 $ to $ n $, what is the probability that atleast one card matches? A match is considered when the $ i^{th} $ card in the deck is numbered $ i $.
 
-$$ Q.2 $$ Will the probability increase or decrease if the number of cards are increased?
+$ Q.2 $ Will the probability increase or decrease if the number of cards are increased?
 
 The problem is the classic case of Inclusion-Exclusion principle. Before understanding about the principle, let's try to simulate this problem on a deck of 20 cards and see the experimental result.
 
@@ -72,17 +72,17 @@ $$ P(\text{Atleast one card matches})=  P(A_1 \cup A_2 \ldots \cup A_n)=  P(\tex
 Calculating each term individually.
 
 
-* $$ P(A_j) $$: Probability that the $$ j^{th}$$ card in the deck is $$ j $$. As all cards are equally likely to occur:
+* $ P(A_j) $: Probability that the $ j^{th}$ card in the deck is $ j $. As all cards are equally likely to occur:
 
 $$ P (A_j) = \frac{1}{n} $$ 
 
-$$\implies P(\text{One card matches}) = n* P(A_j) = n*\frac{1}{n} $$ as there are n cards.
+$\implies P(\text{One card matches}) = n* P(A_j) = n*\frac{1}{n} $ as there are n cards.
 
-* $$ P(A_1 \cap A_2) $$: Probability that the $$ 1^{st} $$ and $$ 2^{nd} $$ card in the deck match i.e. they are labeled $$ 1 $$ and $$ 2 $$ respectively.
+* $ P(A_1 \cap A_2) $: Probability that the $ 1^{st} $ and $ 2^{nd} $ card in the deck match i.e. they are labeled $ 1 $ and $ 2 $ respectively.
 
 $$ P (A_1 \cap A_2) = \frac{(n-2)!}{n!} = \frac{1}{n(n-1)} $$
 
-$$ \implies P(\text{Two card matches}) = (\text{No. of ways to choose two cards})* P(A_1 \cap A_2) = {n \choose 2} *\frac{1}{n(n-1)} $$
+$ \implies P(\text{Two card matches}) = (\text{No. of ways to choose two cards})* P(A_1 \cap A_2) = {n \choose 2} *\frac{1}{n(n-1)} $
 
 * Similarly, 
 
